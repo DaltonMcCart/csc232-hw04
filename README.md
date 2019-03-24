@@ -10,6 +10,14 @@ Implement a recognition algorithm for the language in Exercise 5.
 
 Consider a language of strings that contains only _X_'s, _Y_'s and _Z_'s. A string in this language must begin with an _X_. If a _Y_ is present in the string, it must be the final character of the string.
 
+This language is specified by the following recursive grammar:
+
+```text
+<word> = <X><U> | <X><word> | <X>Y
+<U>    = X | Z
+<X>    = X
+```
+
 ## The Adaptation
 
 As mentioned above, this assignment is an _adaptation_ of the above exercise/programming problem. You will implement the algorithm in a method of given class.

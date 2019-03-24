@@ -55,15 +55,29 @@ set(CPPUNIT_LIBRARY
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 14)
 
+set(MAIN_SRC_DIR src/main/cpp)
+set(TEST_SRC_DIR src/test/cpp)
+
 # Configure targets
 set(SRC_MAIN_FILES
-        src/main/cpp/Main.cpp)
+        ${MAIN_SRC_DIR}/Main.cpp
+        ${MAIN_SRC_DIR}/LanguageProcessor.h
+        ${MAIN_SRC_DIR}/XyzLanguageProcessor.cpp
+        ${MAIN_SRC_DIR}/XyzLanguageProcessor.h)
 
 set(SRC_DEMO_FILES
-        src/main/cpp/Demo.cpp)
+        ${MAIN_SRC_DIR}/Demo.cpp
+        ${MAIN_SRC_DIR}/LanguageProcessor.h
+        ${MAIN_SRC_DIR}/XyzLanguageProcessor.cpp
+        ${MAIN_SRC_DIR}/XyzLanguageProcessor.h)
 
 set(SRC_TEST_FILES
-        src/test/cpp/UnitTestRunner.cpp)
+        ${TEST_SRC_DIR}/UnitTestRunner.cpp
+        ${TEST_SRC_DIR}/XyzLanguageProcessorUnitTest.cpp
+        ${TEST_SRC_DIR}/XyzLanguageProcessorUnitTest.h
+        ${MAIN_SRC_DIR}/LanguageProcessor.h
+        ${MAIN_SRC_DIR}/XyzLanguageProcessor.cpp
+        ${MAIN_SRC_DIR}/XyzLanguageProcessor.h)
 
 # Set the runtime output directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)
