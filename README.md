@@ -22,3 +22,4 @@ This language is specified by the following recursive grammar:
 
 As mentioned above, this assignment is an _adaptation_ of the above exercise/programming problem. You will implement the algorithm in a method of given class.
 
+![Hw04 class diagram](images/hw04.png)
