@@ -10,7 +10,7 @@
 
 #include "XyzLanguageProcessor.h"
 
-bool XyzLanguageProcessor::isValid(const std::string &word) const {
+bool csc232::XyzLanguageProcessor::isValid(const std::string &word) const {
     // TODO: Implement me using recursion
     return false;
 }

@@ -12,9 +12,12 @@
 
 #include "LanguageProcessor.h"
 
-class XyzLanguageProcessor : public LanguageProcessor {
-public:
-    virtual bool isValid(const std::string &word) const override;
-};
+namespace csc232 {
+    class XyzLanguageProcessor : public LanguageProcessor {
+    public:
+        virtual bool isValid(const std::string &word) const override;
+    };
+}
+
 
 #endif // CSC232_HW04_LANGUAGE_RECOGNITION_XYZ_LANGUAGE_PROCESSOR_H

@@ -42,7 +42,7 @@ CPPUNIT_TEST_SUITE(XyzLanguageProcessorUnitTest);
         CPPUNIT_TEST(testXYYYIsInValid);
     CPPUNIT_TEST_SUITE_END();
 
-    LanguageProcessor *languageProcessor;
+    csc232::LanguageProcessor *languageProcessor;
 
     /**
      * Helper method to keep unit tests DRY.

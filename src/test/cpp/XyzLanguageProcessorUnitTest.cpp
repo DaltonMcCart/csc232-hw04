@@ -16,7 +16,7 @@ CPPUNIT_TEST_SUITE_REGISTRATION(XyzLanguageProcessorUnitTest);
 
 void XyzLanguageProcessorUnitTest::setUp() {
     TestFixture::setUp();
-    languageProcessor = new XyzLanguageProcessor{};
+    languageProcessor = new csc232::XyzLanguageProcessor{};
 }
 
 void XyzLanguageProcessorUnitTest::tearDown() {

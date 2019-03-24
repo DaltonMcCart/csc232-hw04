@@ -12,11 +12,15 @@
 
 #include <string>
 
-class LanguageProcessor {
-public:
-    virtual bool isValid(const std::string &word) const = 0;
+namespace csc232 {
 
-    virtual ~LanguageProcessor() = default;
-};
+    class LanguageProcessor {
+    public:
+        virtual bool isValid(const std::string &word) const = 0;
+
+        virtual ~LanguageProcessor() = default;
+    };
+
+}
 
 #endif // CSC232_HW04_LANGUAGE_RECOGNITION_LANGUAGE_PROCESSOR_H
