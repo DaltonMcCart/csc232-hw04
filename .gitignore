@@ -283,3 +283,8 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+generator/CMakeCache.txt
+generator/CMakeFiles
+generator/cmake_install.cmake
+generator/Makefile
