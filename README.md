@@ -20,6 +20,38 @@ This language is specified by the following recursive grammar:
 
 ## The Adaptation
 
-As mentioned above, this assignment is an _adaptation_ of the above exercise/programming problem. You will implement the algorithm in a method of given class.
+This assignment is an _adaptation_ of the above exercise/programming problem. You will implement the algorithm in a method of given class.
+
+As shown in the UML class diagram below, your task is to simply implement the language recognition algorithm for the above language (name _XyzLanguage_ in this project).
 
 ![Hw04 class diagram](images/hw04.png)
+
+## Due Date
+
+This assignment is 23:59 Wednesday 27 March 2019.
+
+### Submission Details
+
+Your assignment is to be submitted in the standard process in Teams:
+
+1. Accept the homework assignment using the provided GitHub Classroom URL in the Teams assignment.
+1. Once your repo has been created by the above automated process, clone your repo.
+1. Create a develop branch within which to do your work.
+1. Follow the guidance suggested by the `TODO` annotations in the source files.
+1. Create a pull request that seeks to merge the changes in your develop branch into your master branch. Be sure to assign both your instructor (professordaehn) and your GA (joshuaellis555) as reviewers (if not already set by GitHub classroom).
+1. "Submit" the assignment in Teams by supplying the URL of your pull request.
+
+**NOTE**: Please DO NOT merge your pull request until I have approved the pull request, or ate least after the assignment has been graded.
+
+### Grading Notes
+
+* Your changes _must_ reside in a branch named `develop` (case sensitive). If your changes are not in that branch, the automation scripts executed by your instructor will fail to execute the unit tests and thus will result in a grade of 0.
+* If your test target does not compile, the greatest grade you can receive is 1 (out of 5 points).
+
+|Criterion | Points |
+|----------|--------|
+|Valid pull request by the due date | 1 |
+|Proper, consistent coding style | 1 |
+|Program correctness (success with unit tests) | 3 |
+
+**Total possible points**: **5**
