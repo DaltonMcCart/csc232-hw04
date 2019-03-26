@@ -15,6 +15,7 @@
 namespace csc232 {
     class XyzLanguageProcessor : public LanguageProcessor {
     public:
+
         virtual bool isValid(const std::string &word) const override;
     };
 }
